@@ -1,0 +1,47 @@
+{
+  "product_code": "LSC-01",
+  "product_name": "Linen Storage Cabinet",
+  "category": "Storage / bedroom",
+  "revision": "A1",
+  "status": "example - not released for production",
+  "units": "mm",
+  "market": "Not specified; customer and market review required",
+  "overall_dimensions_mm": {"width": 900, "depth": 450, "height": 2000},
+  "tolerances_mm": {"overall_dimensions": 2.0, "panel_dimensions": 0.5, "drill_position": 0.5, "squareness": 1.5},
+  "materials": [
+    {"code": "MDF-18", "name": "MDF, nominal 18 mm", "standard": "Supplier grade and emissions class to be approved", "thickness_mm": 18},
+    {"code": "PB-06", "name": "Particleboard, nominal 6 mm", "standard": "Supplier grade to be approved", "thickness_mm": 6},
+    {"code": "PLY-15", "name": "Plywood, nominal 15 mm", "standard": "Species, grade, and face quality to be approved", "thickness_mm": 15}
+  ],
+  "finish": {"surface": "Warm white high-gloss laminate; exact decor/sample approval required", "edge": "2 mm PVC/ABS on exposed edges as indicated per part", "color_reference": "Customer-approved physical sample required"},
+  "components": [
+    {"part_no": "A01", "name": "Left side", "material_code": "MDF-18", "finished_size_mm": {"width": 450, "height": 2000, "thickness": 18}, "quantity": 1, "grain_direction": "height", "edge_banding": ["front 2 mm", "top 0.8 mm", "bottom 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Inside face; bottom-front corner", "details": "Hinge cup and shelf-system drilling per approved CAD drawing; coordinates and hardware pattern to be released before production"}]},
+    {"part_no": "A02", "name": "Right side", "material_code": "MDF-18", "finished_size_mm": {"width": 450, "height": 2000, "thickness": 18}, "quantity": 1, "grain_direction": "height", "edge_banding": ["front 2 mm", "top 0.8 mm", "bottom 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Inside face; bottom-front corner", "details": "Mirror of A01; hinge cup and shelf-system drilling per approved CAD drawing"}]},
+    {"part_no": "A03", "name": "Top", "material_code": "MDF-18", "finished_size_mm": {"width": 864, "height": 450, "thickness": 18}, "quantity": 1, "grain_direction": "width", "edge_banding": ["front 2 mm", "left 0.8 mm", "right 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Bottom face; front-left corner", "details": "Connector pattern per approved joinery drawing"}]},
+    {"part_no": "A04", "name": "Bottom", "material_code": "MDF-18", "finished_size_mm": {"width": 864, "height": 450, "thickness": 18}, "quantity": 1, "grain_direction": "width", "edge_banding": ["front 2 mm", "left 0.8 mm", "right 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Top face; front-left corner", "details": "Connector pattern per approved joinery drawing"}]},
+    {"part_no": "A05", "name": "Adjustable shelf", "material_code": "MDF-18", "finished_size_mm": {"width": 860, "height": 400, "thickness": 18}, "quantity": 2, "grain_direction": "width", "edge_banding": ["front 2 mm"], "operations": [{"op": "EDGE", "datum": "Front long edge", "details": "Apply approved decor-matched edge band"}]},
+    {"part_no": "A06", "name": "Back panel", "material_code": "PB-06", "finished_size_mm": {"width": 864, "height": 1964, "thickness": 6}, "quantity": 1, "grain_direction": "height", "edge_banding": [], "operations": [{"op": "CUT", "datum": "Panel perimeter", "details": "Confirm back fixing/retention detail and fit in prototype"}]},
+    {"part_no": "A07", "name": "Left door", "material_code": "PLY-15", "finished_size_mm": {"width": 428, "height": 1900, "thickness": 15}, "quantity": 1, "grain_direction": "height", "edge_banding": ["all edges 2 mm"], "operations": [{"op": "DRILL", "datum": "Rear face; hinge-side edge", "details": "Hinge cup position and depth to match approved hinge supplier drawing"}]},
+    {"part_no": "A08", "name": "Right door", "material_code": "PLY-15", "finished_size_mm": {"width": 428, "height": 1900, "thickness": 15}, "quantity": 1, "grain_direction": "height", "edge_banding": ["all edges 2 mm"], "operations": [{"op": "DRILL", "datum": "Rear face; hinge-side edge", "details": "Hinge cup position and depth to match approved hinge supplier drawing"}]}
+  ],
+  "hardware": [
+    {"code": "HINGE-35", "description": "35 mm concealed hinge; exact model/overlay to be approved", "quantity": 4, "unit": "ea", "supplier": "TBD", "installation_reference": "Supplier drilling template and approved door overlay"},
+    {"code": "SHELF-PIN", "description": "Shelf support pin, compatible with approved system", "quantity": 8, "unit": "ea", "supplier": "TBD", "installation_reference": "Four supports per shelf"},
+    {"code": "GLIDE-ADJ", "description": "Adjustable furniture glide", "quantity": 4, "unit": "ea", "supplier": "TBD", "installation_reference": "Confirm attachment and floor contact in prototype"}
+  ],
+  "assembly_steps": [
+    {"step": 10, "task": "Inspect parts against part marks, finish sample, and current revision before assembly."},
+    {"step": 20, "task": "Assemble side, top, and bottom panels using the approved connector specification; keep the carcass square."},
+    {"step": 30, "task": "Fit back panel using the approved retention detail; verify diagonal/squareness."},
+    {"step": 40, "task": "Install shelf supports and shelves; install doors and adjust reveal using approved hinge instructions."},
+    {"step": 50, "task": "Install glides, verify stability and function, then pack to the approved pack-out."}
+  ],
+  "quality_checks": [
+    {"check": "Overall width, depth, and height", "method": "Measure assembled unit", "acceptance": "Per approved drawing and stated tolerance"},
+    {"check": "Carcass squareness and stability", "method": "Diagonal comparison and level-floor check", "acceptance": "Per approved drawing/prototype criteria"},
+    {"check": "Door reveal and operation", "method": "Visual and functional inspection", "acceptance": "Approved golden sample; no binding"},
+    {"check": "Surface and edges", "method": "Visual inspection under agreed lighting", "acceptance": "Approved color/finish sample; no unacceptable damage"}
+  ],
+  "packaging": {"pack_type": "Flat pack; validate carton design by transit testing", "cartons_per_unit": 1, "carton_internal_dimensions_mm": {"width": 950, "depth": 500, "height": 2100}, "estimated_net_weight_kg": null, "estimated_gross_weight_kg": null, "protection": "Corner protection and separators; specify material and test after prototype", "label_fields": ["product code", "revision", "carton number", "quantity", "handling marks", "destination"]},
+  "release_documents": ["Approved dimensioned CAD drawing and machining drawing: document ID/revision required before release", "Approved finish sample reference: required before production", "Prototype and packaging validation records: required before release"]
+}

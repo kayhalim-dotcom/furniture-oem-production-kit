@@ -1,0 +1,39 @@
+{
+  "product_code": "DESK-01",
+  "product_name": "Panel Writing Desk",
+  "category": "Office / desk",
+  "revision": "A1",
+  "status": "example - not released for production",
+  "units": "mm",
+  "market": "Not specified; customer and market review required",
+  "overall_dimensions_mm": {"width": 1200, "depth": 600, "height": 750},
+  "tolerances_mm": {"overall_dimensions": 2.0, "panel_dimensions": 0.5, "drill_position": 0.5, "squareness": 1.5},
+  "materials": [
+    {"code": "PB-25", "name": "Furniture-grade particleboard, nominal 25 mm", "standard": "Supplier grade, emissions class, and thickness to be approved", "thickness_mm": 25},
+    {"code": "PB-18", "name": "Furniture-grade particleboard, nominal 18 mm", "standard": "Supplier grade and thickness to be approved", "thickness_mm": 18}
+  ],
+  "finish": {"surface": "Oak-look melamine, customer decor code/sample required", "edge": "2 mm matching edge on exposed edges; 0.8 mm on specified secondary edges", "color_reference": "Customer-approved physical sample required"},
+  "components": [
+    {"part_no": "D01", "name": "Worktop", "material_code": "PB-25", "finished_size_mm": {"width": 1200, "height": 600, "thickness": 25}, "quantity": 1, "grain_direction": "width", "edge_banding": ["front 2 mm", "left 2 mm", "right 2 mm", "rear 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Underside; front-left corner", "details": "Leg/frame fixing pattern and cable-grommet location/diameter require approved drawing; no holes to be released from this example"}]},
+    {"part_no": "D02", "name": "Left side panel", "material_code": "PB-18", "finished_size_mm": {"width": 575, "height": 725, "thickness": 18}, "quantity": 1, "grain_direction": "height", "edge_banding": ["front 2 mm", "bottom 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Inside face; top-front corner", "details": "Connector and worktop fixing pattern to approved drawing"}]},
+    {"part_no": "D03", "name": "Right side panel", "material_code": "PB-18", "finished_size_mm": {"width": 575, "height": 725, "thickness": 18}, "quantity": 1, "grain_direction": "height", "edge_banding": ["front 2 mm", "bottom 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Inside face; top-front corner", "details": "Mirror of D02; connector and worktop fixing pattern to approved drawing"}]},
+    {"part_no": "D04", "name": "Rear modesty panel", "material_code": "PB-18", "finished_size_mm": {"width": 1164, "height": 250, "thickness": 18}, "quantity": 1, "grain_direction": "width", "edge_banding": ["top 0.8 mm"], "operations": [{"op": "DRILL", "datum": "Ends; top edge", "details": "Fixing positions and clearances to approved frame/joinery drawing"}]}
+  ],
+  "hardware": [
+    {"code": "CONNECTOR-DESK", "description": "Approved desk connector set; model and finish TBD", "quantity": 1, "unit": "set", "supplier": "TBD", "installation_reference": "Supplier instructions and approved joint detail"},
+    {"code": "FOOT-ADJ", "description": "Adjustable foot or floor glide; model TBD", "quantity": 4, "unit": "ea", "supplier": "TBD", "installation_reference": "Confirm attachment and floor contact in prototype"}
+  ],
+  "assembly_steps": [
+    {"step": 10, "task": "Check parts, revision, finish, and connector kit against the released BOM."},
+    {"step": 20, "task": "Join side panels and modesty panel using approved connectors; verify frame squareness."},
+    {"step": 30, "task": "Attach the worktop using the released fixing detail; protect the finished face during assembly."},
+    {"step": 40, "task": "Fit feet, level on a flat reference surface, and perform function/stability checks defined by engineering."}
+  ],
+  "quality_checks": [
+    {"check": "Assembled worktop height and footprint", "method": "Measure from datum floor and finished edges", "acceptance": "Per approved drawing and stated tolerance"},
+    {"check": "Frame squareness and connection security", "method": "Diagonal comparison and approved fastener check", "acceptance": "Approved prototype criteria; no loose joints"},
+    {"check": "Worktop finish and edge", "method": "Visual inspection", "acceptance": "Approved decor sample; no unacceptable chips or scratches"}
+  ],
+  "packaging": {"pack_type": "Flat pack; validate carton design by transit testing", "cartons_per_unit": 1, "carton_internal_dimensions_mm": {"width": 1250, "depth": 650, "height": 150}, "estimated_net_weight_kg": null, "estimated_gross_weight_kg": null, "protection": "Face-to-face separators and corner protection; confirm after prototype", "label_fields": ["product code", "revision", "carton number", "quantity", "handling marks", "destination"]},
+  "release_documents": ["Approved worktop and frame dimensioned drawings with hole coordinates", "Approved connector and supplier specifications", "Prototype stability and packaging validation records"]
+}

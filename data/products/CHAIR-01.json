@@ -1,0 +1,45 @@
+{
+  "product_code": "CHAIR-01",
+  "product_name": "Upholstered Dining Chair",
+  "category": "Dining / seating",
+  "revision": "A1",
+  "status": "example - not released for production",
+  "units": "mm",
+  "market": "Not specified; customer and market review required",
+  "overall_dimensions_mm": {"width": 480, "depth": 540, "height": 820},
+  "tolerances_mm": {"overall_dimensions": 2.0, "component_dimensions": 1.0, "drill_position": 0.5, "squareness": 1.5},
+  "materials": [
+    {"code": "BEECH-ASH", "name": "Solid hardwood for frame", "standard": "Species, grade, moisture range, and supplier to be approved", "thickness_mm": null},
+    {"code": "PLY-12", "name": "Plywood, nominal 12 mm", "standard": "Grade, lay-up, and supplier to be approved", "thickness_mm": 12},
+    {"code": "FOAM-UPH", "name": "Upholstery foam and cover system", "standard": "Density, thickness, flammability and textile requirements depend on market; specify and verify", "thickness_mm": null}
+  ],
+  "finish": {"surface": "Clear coating on visible frame; coating system and sheen TBD", "upholstery": "Customer-approved textile, color, seam, and performance specification required", "color_reference": "Approved frame finish and upholstery swatches required"},
+  "components": [
+    {"part_no": "C01", "name": "Front leg, left", "material_code": "BEECH-ASH", "finished_size_mm": {"width": 45, "height": 430, "thickness": 45}, "quantity": 1, "grain_direction": "length", "edge_banding": [], "operations": [{"op": "MILL", "datum": "Foot end and seat rail shoulder", "details": "Final profile, joint geometry, and radii to controlled CAD drawing; confirm grain and defect limits"}]},
+    {"part_no": "C02", "name": "Front leg, right", "material_code": "BEECH-ASH", "finished_size_mm": {"width": 45, "height": 430, "thickness": 45}, "quantity": 1, "grain_direction": "length", "edge_banding": [], "operations": [{"op": "MILL", "datum": "Foot end and seat rail shoulder", "details": "Mirror of C01; final profile and joint geometry to controlled CAD drawing"}]},
+    {"part_no": "C03", "name": "Rear leg / back upright, left", "material_code": "BEECH-ASH", "finished_size_mm": {"width": 45, "height": 820, "thickness": 45}, "quantity": 1, "grain_direction": "length", "edge_banding": [], "operations": [{"op": "MILL", "datum": "Foot end and back-rest joint", "details": "Rear rake, profile, and joint geometry must come from approved CAD drawing"}]},
+    {"part_no": "C04", "name": "Rear leg / back upright, right", "material_code": "BEECH-ASH", "finished_size_mm": {"width": 45, "height": 820, "thickness": 45}, "quantity": 1, "grain_direction": "length", "edge_banding": [], "operations": [{"op": "MILL", "datum": "Foot end and back-rest joint", "details": "Mirror of C03; geometry must come from approved CAD drawing"}]},
+    {"part_no": "C05", "name": "Seat substrate", "material_code": "PLY-12", "finished_size_mm": {"width": 420, "height": 420, "thickness": 12}, "quantity": 1, "grain_direction": "width", "edge_banding": [], "operations": [{"op": "CUT", "datum": "Perimeter", "details": "Seat outline and frame fixing positions to approved CAD drawing"}]},
+    {"part_no": "C06", "name": "Seat cushion and cover", "material_code": "FOAM-UPH", "finished_size_mm": {"width": 460, "height": 460, "thickness": 60}, "quantity": 1, "grain_direction": "N/A", "edge_banding": [], "operations": [{"op": "UPHOLSTER", "datum": "Seat perimeter", "details": "Foam profile, textile direction, seam, staple pattern, and cover allowance to approved upholstery specification"}]},
+    {"part_no": "C07", "name": "Back panel / upholstered back", "material_code": "PLY-12", "finished_size_mm": {"width": 420, "height": 300, "thickness": 12}, "quantity": 1, "grain_direction": "width", "edge_banding": [], "operations": [{"op": "UPHOLSTER", "datum": "Panel perimeter", "details": "Back shape, foam, cover, and attachment method to approved CAD and upholstery specification"}]}
+  ],
+  "hardware": [
+    {"code": "CHAIR-JOINT", "description": "Approved chair joint system (adhesive/fastener as engineered); exact specification TBD", "quantity": 1, "unit": "set", "supplier": "TBD", "installation_reference": "Controlled joint drawing and adhesive/fastener supplier instructions"},
+    {"code": "GLIDE-CHAIR", "description": "Floor glide suitable for leg profile; exact model TBD", "quantity": 4, "unit": "ea", "supplier": "TBD", "installation_reference": "Confirm retention and floor compatibility in prototype"}
+  ],
+  "assembly_steps": [
+    {"step": 10, "task": "Verify timber species/grade, moisture requirement, upholstery lot, and current approved revision."},
+    {"step": 20, "task": "Machine and dry-fit frame joints using controlled CAD geometry; reject fit issues before adhesive assembly."},
+    {"step": 30, "task": "Bond and clamp frame in the approved fixture; observe the adhesive supplier's process instructions."},
+    {"step": 40, "task": "Apply approved coating; upholster seat and back per controlled upholstery specification."},
+    {"step": 50, "task": "Fit glides and complete engineering-defined function, finish, and applicable seating tests."}
+  ],
+  "quality_checks": [
+    {"check": "Frame joints and assembled geometry", "method": "Visual, fixture, and approved test method", "acceptance": "Approved drawing and engineering validation criteria"},
+    {"check": "Rocking and floor contact", "method": "Place on specified reference surface", "acceptance": "Per approved prototype criteria"},
+    {"check": "Upholstery and seams", "method": "Visual inspection against approved swatch and sample", "acceptance": "No unacceptable wrinkles, damage, or visible mismatch"},
+    {"check": "Strength/durability and market requirements", "method": "Applicable third-party or internal test plan", "acceptance": "Applicable market/customer specification; test evidence required before release"}
+  ],
+  "packaging": {"pack_type": "Protective single-chair carton; carton design and drop/transit test required", "cartons_per_unit": 1, "carton_internal_dimensions_mm": {"width": 520, "depth": 580, "height": 860}, "estimated_net_weight_kg": null, "estimated_gross_weight_kg": null, "protection": "Protect frame corners and upholstery contact surfaces; validate by transit test", "label_fields": ["product code", "revision", "carton number", "quantity", "handling marks", "destination"]},
+  "release_documents": ["Approved chair CAD drawings including joint sections and datums", "Approved timber, adhesive, coating, foam, and textile specifications", "Required market-specific test reports and packaging validation records"]
+}

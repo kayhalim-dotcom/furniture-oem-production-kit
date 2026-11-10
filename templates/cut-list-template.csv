@@ -1,0 +1,2 @@
+product_code,revision,part_no,part_name,material_code,finished_width_mm,finished_height_mm,thickness_mm,quantity,grain_direction,edge_banding,notes
+SKU-001,A0,P01,Example panel,MAT-01,600,400,18,1,length,front 2 mm,Finished size; engineering approval required

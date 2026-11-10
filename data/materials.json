@@ -1,81 +1,12 @@
 {
   "materials": [
-    {
-      "code": "MDF-18",
-      "name": "Medium Density Fiberboard",
-      "thickness_mm": 18,
-      "density_kg_m3": 720,
-      "usage": "Carcass panels and non-structural components",
-      "finish": ["melamine", "laminate", "paint"],
-      "notes": "Good stability, smooth machining, suitable for OEM cabinet production"
-    },
-    {
-      "code": "PB-18",
-      "name": "Particle Board",
-      "thickness_mm": 18,
-      "density_kg_m3": 650,
-      "usage": "Back panels and low-cost shelf panels",
-      "finish": ["laminate"],
-      "notes": "Economical, suitable for interior application"
-    },
-    {
-      "code": "PLY-15",
-      "name": "Birch Plywood",
-      "thickness_mm": 15,
-      "density_kg_m3": 600,
-      "usage": "Cabinet doors and visible panels",
-      "finish": ["veneer", "paint", "laminate"],
-      "notes": "Strong and stable for cabinet doors"
-    },
-    {
-      "code": "HPL-0.8",
-      "name": "High Pressure Laminate",
-      "thickness_mm": 0.8,
-      "usage": "Decorative surface on panel boards",
-      "finish": ["matte", "gloss"],
-      "notes": "Durable decorative layer" 
-    }
-  ],
-  "hardware": [
-    {
-      "code": "CONF-35",
-      "name": "Concealed Hinge",
-      "type": "hinge",
-      "size_mm": 35,
-      "material": "steel",
-      "finish": "nickel",
-      "qty_per_unit": 2,
-      "notes": "Used for front panel mounting"
-    },
-    {
-      "code": "SCREW-4x40",
-      "name": "Machine Screw",
-      "type": "screw",
-      "size_mm": "4x40",
-      "material": "steel",
-      "finish": "zinc plated",
-      "qty_per_unit": 8,
-      "notes": "General assembly and bracket fixing"
-    },
-    {
-      "code": "DWS-8x50",
-      "name": "Wood Screw",
-      "type": "screw",
-      "size_mm": "8x50",
-      "material": "steel",
-      "finish": "black oxide",
-      "qty_per_unit": 12,
-      "notes": "Structural fixings for subassembly"
-    },
-    {
-      "code": "GLIDE-20",
-      "name": "Adjustable Furniture Glide",
-      "type": "glide",
-      "size_mm": 20,
-      "material": "nylon + rubber",
-      "finish": "black",
-      "qty_per_unit": 4,
-      "notes": "Used under base cabinet stability"
-    }
+    {"code": "MDF-18", "name": "Medium-density fibreboard", "typical_thickness_mm": 18, "supplier_grade": "To be specified per order", "notes": "Confirm density, emissions class, thickness tolerance, and suitability with supplier/customer."},
+    {"code": "PB-06", "name": "Particleboard", "typical_thickness_mm": 6, "supplier_grade": "To be specified per order", "notes": "Confirm grade, emissions class, and performance for intended use."},
+    {"code": "PB-18", "name": "Furniture-grade particleboard", "typical_thickness_mm": 18, "supplier_grade": "To be specified per order", "notes": "Confirm grade, emissions class, thickness tolerance, and suitability with supplier/customer."},
+    {"code": "PB-25", "name": "Furniture-grade particleboard", "typical_thickness_mm": 25, "supplier_grade": "To be specified per order", "notes": "Illustrative only; confirm actual panel thickness and performance."},
+    {"code": "PLY-12", "name": "Plywood", "typical_thickness_mm": 12, "supplier_grade": "To be specified per order", "notes": "Specify species, lay-up, face grade, and emissions/performance as applicable."},
+    {"code": "PLY-15", "name": "Plywood", "typical_thickness_mm": 15, "supplier_grade": "To be specified per order", "notes": "Specify species, lay-up, face grade, and emissions/performance as applicable."},
+    {"code": "BEECH-ASH", "name": "Solid hardwood", "typical_thickness_mm": null, "supplier_grade": "Species/grade to be specified per order", "notes": "Control species, moisture range, defect limits, and grain orientation."},
+    {"code": "FOAM-UPH", "name": "Upholstery foam/textile system", "typical_thickness_mm": null, "supplier_grade": "To be specified per market/order", "notes": "Specify foam performance, textile, color, care, and applicable fire requirements."}
   ]
 }

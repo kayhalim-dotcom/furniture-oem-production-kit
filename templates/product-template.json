@@ -1,0 +1,44 @@
+{
+  "product_code": "NEW-001",
+  "product_name": "New Product Name",
+  "category": "Category / type",
+  "revision": "A0",
+  "status": "development",
+  "units": "mm",
+  "market": "Destination market(s) and customer specification",
+  "overall_dimensions_mm": {"width": 0, "depth": 0, "height": 0},
+  "tolerances_mm": {"overall_dimensions": null, "panel_dimensions": null, "drill_position": null, "squareness": null},
+  "materials": [
+    {"code": "MATERIAL-CODE", "name": "Full material description", "standard": "Supplier grade/specification and approval reference", "thickness_mm": null}
+  ],
+  "finish": {"surface": "Finish specification and approved sample reference", "edge": "Edge treatment by part/edge", "color_reference": "Approved customer sample/code"},
+  "components": [
+    {
+      "part_no": "P01",
+      "name": "Component name",
+      "material_code": "MATERIAL-CODE",
+      "finished_size_mm": {"width": 0, "height": 0, "thickness": 0},
+      "quantity": 1,
+      "grain_direction": "defined direction or N/A",
+      "edge_banding": [],
+      "operations": [
+        {"op": "CUT/DRILL/MILL/EDGE/FINISH", "datum": "Named datum and origin", "details": "Feature detail or controlled drawing ID/revision; specify coordinates, sizes, depths, and process as required"}
+      ]
+    }
+  ],
+  "hardware": [
+    {"code": "HW-001", "description": "Full hardware specification", "quantity": 1, "unit": "ea", "supplier": "Supplier/model", "installation_reference": "Controlled supplier drawing or work instruction"}
+  ],
+  "assembly_steps": [{"step": 10, "task": "Action, required tools, joint/process reference, and inspection point"}],
+  "quality_checks": [{"check": "Characteristic", "method": "Defined measurement/test method", "acceptance": "Approved measurable criteria and reference"}],
+  "packaging": {
+    "pack_type": "Pack configuration",
+    "cartons_per_unit": 1,
+    "carton_internal_dimensions_mm": {"width": 0, "depth": 0, "height": 0},
+    "estimated_net_weight_kg": null,
+    "estimated_gross_weight_kg": null,
+    "protection": "Material and arrangement; validate by transit test",
+    "label_fields": ["product code", "revision", "quantity", "destination"]
+  },
+  "release_documents": ["Approved controlled drawing ID/revision", "Approved material/finish/hardware specifications", "Validation and packaging test records"]
+}

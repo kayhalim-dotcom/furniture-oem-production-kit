@@ -1,0 +1,11 @@
+{
+  "hardware": [
+    {"code": "HINGE-35", "description": "35 mm concealed hinge", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Use approved supplier drawing for drilling, overlay, opening, and fixing details."},
+    {"code": "SHELF-PIN", "description": "Shelf support pin", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Confirm diameter, engagement, load suitability, and panel drilling pattern."},
+    {"code": "GLIDE-ADJ", "description": "Adjustable furniture glide", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Confirm attachment and floor compatibility."},
+    {"code": "CONNECTOR-DESK", "description": "Desk connector set", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Specify connector, fasteners, drill pattern, and joint validation."},
+    {"code": "FOOT-ADJ", "description": "Adjustable desk foot", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Confirm attachment and floor contact."},
+    {"code": "CHAIR-JOINT", "description": "Chair joint system", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Joint design and adhesive/fastener process must be engineered and validated."},
+    {"code": "GLIDE-CHAIR", "description": "Chair floor glide", "supplier": "TBD", "model": "TBD", "finish": "TBD", "notes": "Confirm fit, retention, wear, and floor compatibility."}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "catalog_name": "OEM furniture examples",
+  "schema_version": "1.0",
+  "products": [
+    {"code": "LSC-01", "file": "products/LSC-01.json", "status": "example"},
+    {"code": "DESK-01", "file": "products/DESK-01.json", "status": "example"},
+    {"code": "CHAIR-01", "file": "products/CHAIR-01.json", "status": "example"}
+  ]
+}
