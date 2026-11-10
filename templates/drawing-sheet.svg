@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f5f5f5"/>
+  <text x="60" y="80" font-size="32" font-family="Arial" font-weight="bold">OEM Furniture Production Drawing</text>
+  <text x="60" y="120" font-size="18" font-family="Arial">Product: Linen Storage Cabinet</text>
+  <text x="60" y="150" font-size="18" font-family="Arial">Drawing No: LSC-01 / REV A1</text>
+
+  <rect x="60" y="200" width="500" height="500" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="650" y="200" width="500" height="500" fill="none" stroke="#333" stroke-width="2"/>
+
+  <line x1="60" y1="200" x2="560" y2="700" stroke="#666" stroke-width="1.5"/>
+  <line x1="60" y1="700" x2="560" y2="200" stroke="#666" stroke-width="1.5"/>
+
+  <text x="220" y="760" font-size="18" font-family="Arial">Front Elevation</text>
+  <text x="840" y="760" font-size="18" font-family="Arial">Top View</text>
+
+  <line x1="650" y1="200" x2="1150" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="650" y1="700" x2="1150" y2="700" stroke="#333" stroke-width="2"/>
+  <line x1="650" y1="200" x2="650" y2="700" stroke="#333" stroke-width="2"/>
+  <line x1="1150" y1="200" x2="1150" y2="700" stroke="#333" stroke-width="2"/>
+
+  <text x="160" y="360" font-size="16" font-family="Arial">W 900</text>
+  <text x="170" y="560" font-size="16" font-family="Arial">H 2000</text>
+  <text x="830" y="360" font-size="16" font-family="Arial">D 450</text>
+
+  <text x="60" y="830" font-size="16" font-family="Arial">All dimensions in mm. Tolerance ±1.0 mm. Material: MDF 18 mm / Plywood 15 mm.</text>
+</svg>

@@ -1,0 +1,9 @@
+# Cut list template
+
+Product Code,Part Number,Part Name,Material,Thickness mm,Width mm,Height mm,Qty,Notes
+LSC-01,LSC-01-A01,Side panel,MDF-18,18,900,2000,2,"Cut to final size"
+LSC-01,LSC-01-A02,Top panel,MDF-18,18,900,450,1,"Top panel"
+LSC-01,LSC-01-A03,Bottom panel,MDF-18,18,900,450,1,"Bottom panel"
+LSC-01,LSC-01-A04,Shelf panel,PB-18,18,860,400,2,"Adjustable shelf"
+LSC-01,LSC-01-A05,Back panel,PB-18,6,900,2000,1,"Back panel"
+LSC-01,LSC-01-A06,Door panel,PLY-15,15,430,1900,2,"Door panel"

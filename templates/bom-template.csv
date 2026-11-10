@@ -1,0 +1,9 @@
+# BOM template
+
+Product Code,Part Number,Description,Material,Thickness mm,Quantity,Finished Size W x D x H mm,Notes
+LSC-01,LSC-01-A01,Side panel,MDF-18,18,2,"900 x 2000 x 18","Left and right side panel"
+LSC-01,LSC-01-A02,Top panel,MDF-18,18,1,"900 x 450 x 18","Top carcass panel"
+LSC-01,LSC-01-A03,Bottom panel,MDF-18,18,1,"900 x 450 x 18","Bottom carcass panel"
+LSC-01,LSC-01-A04,Shelf panel,PB-18,18,2,"860 x 400 x 18","Adjustable shelf"
+LSC-01,LSC-01-A05,Back panel,PB-18,6,1,"900 x 2000 x 6","Back reinforcement"
+LSC-01,LSC-01-A06,Door panel,PLY-15,15,2,"430 x 1900 x 15","Front door"

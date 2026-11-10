@@ -1,0 +1,56 @@
+{
+  "product_name": "Linen Storage Cabinet",
+  "product_code": "LSC-01",
+  "category": "Bedroom / Storage",
+  "revision": "A1",
+  "target_market": "OEM export",
+  "overall_dimensions_mm": {
+    "width": 900,
+    "depth": 450,
+    "height": 2000
+  },
+  "tolerance_mm": {
+    "length": 1.0,
+    "width": 1.0,
+    "height": 1.0,
+    "squareness": 1.5,
+    "flatness": 1.0
+  },
+  "materials": [
+    { "component": "Carcass panels", "material_code": "MDF-18", "thickness_mm": 18, "quantity": 2 },
+    { "component": "Top panel", "material_code": "MDF-18", "thickness_mm": 18, "quantity": 1 },
+    { "component": "Door panel", "material_code": "PLY-15", "thickness_mm": 15, "quantity": 2 },
+    { "component": "Shelf", "material_code": "PB-18", "thickness_mm": 18, "quantity": 2 },
+    { "component": "Back panel", "material_code": "PB-18", "thickness_mm": 6, "quantity": 1 }
+  ],
+  "hardware": [
+    { "component": "Door hinge", "hardware_code": "CONF-35", "quantity": 4 },
+    { "component": "Assembly screw", "hardware_code": "SCREW-4x40", "quantity": 16 },
+    { "component": "Fixture screw", "hardware_code": "DWS-8x50", "quantity": 12 },
+    { "component": "Base glides", "hardware_code": "GLIDE-20", "quantity": 4 }
+  ],
+  "finish": {
+    "surface": "High gloss laminate",
+    "edge": "PVC edge banding, 2 mm",
+    "color": "Warm white",
+    "handle": "Push-to-open / recessed handle"
+  },
+  "assembly_notes": [
+    "Assemble carcass before fitting door panels.",
+    "Ensure all mating edges are edge-banded and free of burrs.",
+    "Confirm horizontal alignment of shelves and doors prior to final tightening.",
+    "Test door movement after hinge installation."
+  ],
+  "quality_checks": [
+    "Check panel dimensions and squareness.",
+    "Verify laminate adhesion and edge coverage.",
+    "Confirm hinge alignment and door opening angle.",
+    "Check base stability and glide install."
+  ],
+  "packaging": {
+    "method": "Flat pack with protective corners and foam padding",
+    "carton_size_mm": { "width": 960, "depth": 500, "height": 2050 },
+    "weight_kg": 54,
+    "labels": ["Part number", "Quantity", "Handling instructions", "Supplier code"]
+  }
+}
